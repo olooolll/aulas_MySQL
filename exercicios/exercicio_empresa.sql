@@ -15,6 +15,7 @@ Ele necessita enviar um email para as colaboradoras desses dois setores. */
 SELECT sexo, nome, departamento, email FROM funcionarios
 WHERE (departamento = 'Lar' AND sexo = 'Feminino') 
 OR (departamento = 'Filmes' AND sexo = 'Feminino');
+
 /* Como estamos trabalhando com AND, colocamos o departamento primeiro, pois ele irá checar a segunda condição um numero menor que vezes. */
 
 
